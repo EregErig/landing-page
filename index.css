@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1b1e23;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.main-section {
+    background-color: #252a34;
+    color: white;
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-section h1 {
+    font-size: 36px;
+}
+.main-section p {
+    color: #b5b5b5;
+    font-size: 18px;
+}
+.main-section .image-placeholder {
+    background-color: #6c757d;
+    width: 50%;
+    height: 200px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.info-section {
+    padding: 40px;
+    text-align: center;
+}
+.info-section h2 {
+    font-size: 24px;
+}
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.info-card {
+    border: 2px solid #007bff;
+    padding: 20px;
+    width: 20%;
+}
+.quote-section {
+    background-color: #e9ecef;
+    padding: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.quote-section p {
+    font-size: 18px;
+}
+.quote-section cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6c757d;
+}
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.cta-section p {
+    font-size: 18px;
+}
+.cta-section .sign-up-btn {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer {
+    background-color: #1b1e23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
